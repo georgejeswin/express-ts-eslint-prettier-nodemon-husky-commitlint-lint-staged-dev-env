@@ -6,6 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgejeswin/express-ts-seed-eslint-prettier-husky-commitlint.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "typescript",
+    "express"
+  ],
+  "author": "Jeswin George",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
