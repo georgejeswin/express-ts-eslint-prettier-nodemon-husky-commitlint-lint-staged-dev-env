@@ -1,2 +1,3 @@
-To exectute prettier manually
-prettier --config .prettierrc.json --write src/\*_/_.ts
+Ref
+https://sipsandbits.com/2022/02/25/setup-node-project-with-express-typescript-and-test-from-scratch/
+https://medium.com/@oxodesign/node-js-express-with-typescript-eslint-jest-prettier-and-husky-part-2-f129188ce404
