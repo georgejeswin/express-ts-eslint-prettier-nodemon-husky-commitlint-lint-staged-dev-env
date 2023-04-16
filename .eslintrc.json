@@ -8,7 +8,9 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 11,
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "files": ["src/**/*.{js,jsx,ts,tsx}", "!commitlint.config.js"]
    },
   "plugins": ["prettier", "@typescript-eslint"],
   "rules": {
