@@ -19,10 +19,7 @@
     "./src/**/*.+(ts|js)": [
       "npm run lint",
       "npm run prettier:check"
-    ],
-    "*": [
-      "commitlint -E HUSKY_GIT_PARAMS"
-   ]
+    ]
   },
   "repository": {
     "type": "git",
