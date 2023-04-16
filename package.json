@@ -15,12 +15,6 @@
     "prettier:write": "prettier --config .prettierrc.json src/**/*.ts --write --ignore-unknown",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "./src/**/*.+(ts|js)": [
-      "npm run lint",
-      "npm run prettier:check"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/georgejeswin/express-ts-seed-eslint-prettier-husky-commitlint.git"
