@@ -13,10 +13,9 @@
     "format": "prettier -w .",
     "prettier:check": "prettier --config .prettierrc.json src/**/*.ts --check --ignore-unknown",
     "prettier:write": "prettier --config .prettierrc.json src/**/*.ts --write --ignore-unknown",
-    "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "prepare": "husky install"
   },
-  "lint-staged":{
+  "lint-staged": {
     "./src/**/*.+(ts|js)": [
       "npm run lint",
       "npm run prettier:check"
