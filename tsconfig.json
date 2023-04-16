@@ -19,6 +19,6 @@
     "noImplicitAny": true
   },
   "lib": ["es6"],
-  "include": ["src/**/*.ts", "commitlint.config.js"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
