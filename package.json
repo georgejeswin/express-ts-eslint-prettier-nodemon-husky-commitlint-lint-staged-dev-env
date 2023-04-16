@@ -21,9 +21,6 @@
       "npm run prettier:check"
     ]
   },
-  "hooks": {
-    "pre-commit": "lint-staged"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/georgejeswin/express-ts-seed-eslint-prettier-husky-commitlint.git"
